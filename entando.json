@@ -1,0 +1,34 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "form-renderer",
+            "customElement": "form-renderer",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "form-renderer",
+                "it": "form-renderer"
+            }
+        },
+        {
+            "name": "form-generator",
+            "customElement": "form-generator",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "form-generator",
+                "it": "form-generator"
+            }
+        }
+    ],
+    "svc": [],
+    "name": "hackathon-2023-react-node",
+    "version": "0.0.1",
+    "description": "hackathon-2023-react-node description",
+    "type": "bundle"
+}
