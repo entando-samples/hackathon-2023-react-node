@@ -16,5 +16,5 @@ COPY $SOURCE_ROOT .
 
 EXPOSE 8081
 
-CMD [ "node", "bin/www" ]
+CMD [ "npm", "start" ]
 
