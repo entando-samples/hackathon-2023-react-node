@@ -1,5 +1,15 @@
 {
-    "microservices": [],
+    "microservices": [
+        {
+            "name": "node-ms",
+            "stack": "node",
+            "healthCheckPath": "/api/health",
+            "commands": {
+                "run": "npm start",
+                "build": "npm run build"
+            }
+        }
+    ],
     "microfrontends": [
         {
             "name": "form-renderer",
